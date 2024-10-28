@@ -41,23 +41,26 @@ h2 {
 }
 
 /* Navigation styles */
-nav{
-    
+nav {
+    position: fixed; /* Fix the navigation bar */
     top: 0; /* Position it at the top */
     left: 0; /* Align it to the left */
-    right: 0; /* Align it to the right */  
+    right: 0; /* Align it to the right */
+    background-color: #4a90e2; /* Background color for nav */
     z-index: 1000; /* Ensure it stays on top of other elements */
+    padding: 10px 0; /* Add padding for aesthetics */
 }
+
 nav ul {
     list-style-type: none; /* Remove list bullet points */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margin */
     display: flex; /* Use flexbox for navigation */
-    
-    
+    justify-content: center; /* Center items horizontally */
 }
-nav li {
-    margin: 5px; /* Space between items */
+
+nav ul li {
+    margin-left: 20px; /* Space between navigation items */
 }
 nav a {
     text-decoration: none; /* Remove underline from links */
@@ -66,7 +69,7 @@ nav a {
     transition: background-color 0.3s; /* Smooth background transition */
 }
 nav a:hover {
-    background-color: #f0f0f0; /* Background color on hover */
+    background-color: #041c38; /* Background color on hover */
 }
 
 nav ul li {
