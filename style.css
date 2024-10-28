@@ -19,8 +19,8 @@ header {
 /* Profile picture styles */
 .profile-pic {
     border-radius: 50%; /* Make image circular */
-    width: 100px; /* Set width */
-    height: 100px; /* Set height */
+    width: 140px; /* Set width */
+    height: 140px; /* Set height */
     object-fit: cover; /* Maintain aspect ratio */
 }
 
@@ -112,16 +112,17 @@ button:hover {
 /* Main portfolio styles */
 main.portfolio {
     padding: 20px; /* Add padding */
-    background-image: url('00.jpg'); /* Set background image */
+    background-image: url('ii.jpg'); /* Set background image */
     background-size: cover; /* Cover the entire area */
     background-position: center; /* Center the background image */
 }
 
 /* Section styles */
 section {
-    max-width: 800px; /* Set max width */
+    max-width: 600px; /* Set max width */
     margin: 0 auto; /* Center section */
     padding: 2rem; /* Add padding */
+    border-radius: 15px;
     background-color: #fff; /* Set background color */
     margin-top: 20px; /* Space above section */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow */
