@@ -33,6 +33,7 @@ header h1{
     object-fit: cover; /* Maintain aspect ratio */
     position: fixed;
     top: 20px; /* Position it from the top */
+    z-index: 10001;
    
 }
 
@@ -59,7 +60,7 @@ nav {
     right: 0; /* Align it to the right */
     background-color: #4a90e2; /* Background color for nav */
     z-index: 1000; /* Ensure it stays on top of other elements */
-    padding: 10px 20px; /* Add padding for aesthetics */
+    padding: 30px; /* Add padding for aesthetics */
 }
 
 nav ul {
@@ -151,11 +152,12 @@ button:hover {
 
 /* Main portfolio styles */
 main.portfolio {
-    padding: 20px; /* Add padding */
+    padding: 25px; /* Add padding */
     background-image: url('ii.jpg'); /* Set background image */
     background-size: cover; /* Cover the entire area */
     background-position: center; /* Center the background image */
-    margin-top: 60px;
+    margin-top: 65px;
+    top: auto;
 }
 
 /* Section styles */
