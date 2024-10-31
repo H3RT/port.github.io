@@ -141,6 +141,25 @@ h2 {
     font-size: 12px; /* Set font size */
 }
 
+#chatContainer {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    /* Smaller width */
+}
+
+#chatbox {
+    border: 1px solid #ccc;
+    max-height: 250px;
+    /* Limit max height */
+    overflow-y: auto;
+    /* Enable scrollbar when content overflows */
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+}
+
 /* Footer styles */
 footer {
     text-align: center; /* Center text */
