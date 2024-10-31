@@ -160,6 +160,27 @@ h2 {
     border-radius: 10px 10px 0 0;
 }
 
+#userInput {
+    width: calc(100% - 90px);
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+    border-radius: 0 0 0 10px;
+}
+
+#sendButton {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 0 0 10px 0;
+    cursor: pointer;
+}
+
+#sendButton:hover {
+    background-color: #0056b3;
+}
+
 /* Footer styles */
 footer {
     text-align: center; /* Center text */
