@@ -50,3 +50,32 @@ document.addEventListener("DOMContentLoaded", function() {
       // Scroll to the bottom of the chatbox
       chatbox.scrollTop = chatbox.scrollHeight; // Ensure the latest message is visible
   }
+
+  function getBotResponse(userMessage) {
+    const lowerMessage = userMessage.toLowerCase();
+    const responseArray = responses[lowerMessage];
+    if (responseArray) {
+        return responseArray[Math.floor(Math.random() * responseArray.length)];
+    }
+    return "Sorry, I didn't understand that. Can you ask something else?";
+}
+
+sendButton.addEventListener('click', () => {
+    const userMessage = userInput.value.trim();
+    if (userMessage) {
+        appendMessage('You', userMessage);
+        userInput.value = ''; // Clear input field
+
+        const botResponse = getBotResponse(userMessage);
+        setTimeout(() => {
+            appendMessage('Bot', botResponse);
+        }, 500); // Simulate response delay
+    }
+});
+
+// Optional: Send message with Enter key
+userInput.addEventListener('keypress', (event) => {
+    if (event.key === 'Enter') {
+        sendButton.click();
+    }
+});  
