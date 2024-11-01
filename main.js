@@ -34,13 +34,25 @@ document.addEventListener("DOMContentLoaded", function() {
   
   // Simple responses for demonstration
   var responses = {
-      "hello": ["Hi there! How can I assist you today?", "Hello! What’s on your mind?"],
-      "hey": ["Hey! What would you like to know?", "Hello! How can I help you?"],
-      "hi": ["Hi! Need any help?", "Hello! What can I do for you?"],
-      "how are you?": ["I'm just code, but I'm functioning perfectly! How about you?", "Doing great! How are you doing?"],
-      "about me": ["I know several languages, including:<ul><li>Python</li><li>C++</li><li>Java</li><li>PHP</li><li>HTML & CSS</li></ul>What about you?"],
-      "bye": ["Goodbye! Have a great day!", "See you later! Take care!"],
-  };
+    "hello": ["Hi there! How can I assist you today?", "Hello! What’s on your mind?"],
+    "hey": ["Hey! What would you like to know?", "Hello! How can I help you?"],
+    "hi": ["Hi! Need any help?", "Hello! What can I do for you?"],
+    "how are you?": ["I'm just code, but I'm functioning perfectly! How about you?", "Doing great! How are you doing?"],
+    "about me": [
+        "I am an enthusiastic and detail-oriented Junior Software Developer with a strong foundation in software engineering principles and hands-on experience in various programming languages including Python, Java, HTML, and CSS among others. I recently graduated with a Diploma in Computer Systems Engineering, equipped with practical knowledge in web development, database management, and software testing. I'm passionate about learning new technologies and contributing to innovative projects."
+    ],
+    "projects": [
+        "1 Player Tic-Tac-Toe: A simple console-based Tic-Tac-Toe game in Java where you compete against the computer.\nHangman Game: A simple console-based Hangman game implemented in Java, allowing one or two players to play."
+    ],
+    "skills": [
+        "My tech stack includes Java, Python, C++, SQL, HTML, CSS, and PHP."
+    ],
+    "education": [
+        "I studied at Tshwane University of Technology, earning a National Diploma in Computer Systems Engineering from 2018 to 2021."
+    ],
+    "bye": ["Goodbye! Have a great day!", "See you later! Take care!"],
+};
+
   
   function appendMessage(sender, message) {
       const messageDiv = document.createElement('div');
