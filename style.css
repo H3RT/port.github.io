@@ -153,7 +153,11 @@ button:hover {
 /* Main portfolio styles */
 main.portfolio {
     padding: 25px; /* Add padding */
+<<<<<<< HEAD
     background-image: url('wee.avif'); /* Set background image */
+=======
+    background-image: url('ii.jpg'); /* Set background image */
+>>>>>>> 882a9b30dbb197346bfbf60395ebf3dd4ff44a48
     background-size: cover; /* Cover the entire area */
     background-position: center; /* Center the background image */
     margin-top: 65px;

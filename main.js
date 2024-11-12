@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
 
+<<<<<<< HEAD
 
 const chatBox = document.getElementById('chat-box');
 const userInput = document.getElementById('user-input');
@@ -81,3 +82,5 @@ function getBotResponse(message) {
         return "Sorry, I didn't understand that. You can ask about 'about me', 'experience', 'skills', or 'contact'.";
     }
 }
+=======
+>>>>>>> 882a9b30dbb197346bfbf60395ebf3dd4ff44a48
